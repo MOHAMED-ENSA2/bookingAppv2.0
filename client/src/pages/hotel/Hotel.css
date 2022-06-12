@@ -1,0 +1,87 @@
+.hotel-container{
+    margin-top: 50px;
+}
+.hotel{
+    color: rgb(var(--third-color));
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5;
+
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+.hotel--title{
+    font-size: 1.9rem; 
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.hotel--address{
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+.address--icon{
+    color: rgb(var(--primary-color));
+}
+
+.dress--text{
+    color: rgb(var(--third-color) , .7);
+    font-size: 1.1rem; 
+    font-weight: 400;
+    margin-left: 7px;
+}
+
+.hotel--images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.hotel--images > img{
+    width: 270px; 
+    height: 270px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+
+    box-shadow: 3px 4px 5px 0px rgba(204,195,195,0.75);
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(204,195,195,0.75);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(204,195,195,0.75);
+    
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.hotel--details{
+    text-align: justify;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10%;
+}
+
+.hotel--about{
+    flex: 8;
+}
+
+.about--title{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+
+.hotel--remark{
+    background: #ebf3ff;
+    flex:3;
+    padding: 12px 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+

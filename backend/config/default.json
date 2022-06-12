@@ -1,0 +1,5 @@
+{
+    "name" : "booking app"  , 
+    "db" : "mongodb+srv://medensa:0642389199@cluster0.0ljh3.mongodb.net/?retryWrites=true&w=majority" , 
+    "jwtPrivateKey" : "jwtPrivateKey" 
+}

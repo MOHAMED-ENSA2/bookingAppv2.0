@@ -1,0 +1,32 @@
+.imageCard{
+    font-size: 2rem; 
+    color: rgb(var(--secondary-color));
+    background-size: cover;
+    opacity: 1 ;
+    width: 350px;
+    height: 270px;
+    padding: 18px;
+    border-radius: 3px;
+    
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: end;
+
+    cursor: pointer;
+
+    transition: all .2s ease;
+    }
+
+.imageCard--city{
+    font-weight: bold;
+}
+
+.imageCard--etab{
+    font-size: 1.3rem; 
+    font-weight: 400;
+}
+
+.imageCard:hover{
+    transform: scale(.98);
+}

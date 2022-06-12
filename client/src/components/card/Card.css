@@ -1,0 +1,70 @@
+.card{
+    color: rgb(var(--third-color));
+    border-radius: 3px;
+    width: 260px; 
+    height: 370px;
+
+    box-shadow: 3px 4px 5px 0px rgba(204,195,195,0.75);
+-webkit-box-shadow: 3px 4px 5px 0px rgba(204,195,195,0.75);
+-moz-box-shadow: 3px 4px 5px 0px rgba(204,195,195,0.75);
+
+    transition: all .2s ease;
+}
+
+.card:hover{
+    transform: scale(.95);    
+    cursor: pointer;
+}
+
+.card--img{
+    width: 100%;
+    height: 240px;
+}
+
+.card--text{
+    padding: 10px;
+}
+
+.card--title{
+    font-size: 1rem;
+    color: rgb(var(--third-color), .7);
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.card--city{
+    font-size: 1rem;
+    color: rgb(var(--third-color), .4);
+    font-weight: 400;
+}
+
+.card--price{
+    margin-top: 12px;
+    margin-bottom: 17px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.rating{
+    display: flex;
+    gap : 4px 15px;
+    align-items: center;
+}
+
+.rating--rat{
+    font-size: .85rem;
+    display: inline-block;
+    background-color: rgb(var(--primary-color));
+    color: rgb(var(--secondary-color));
+    text-align: center;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 3px;
+}
+.rating--mark{
+    font-weight: 600;
+}
+.rating--number{
+    color: rgb(var(--third-color), .5);
+    font-weight: 400; 
+}

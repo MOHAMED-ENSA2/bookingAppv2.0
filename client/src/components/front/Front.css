@@ -1,0 +1,18 @@
+.front-container{
+    background: rgb(var(--primary-color)) ; 
+    color: rgb(var(--secondary-color)); 
+    margin-bottom: 100px;
+}
+
+.front{    
+    margin : 0 auto;
+    max-width: 1100px;
+    position: relative;
+}
+
+.hero--searchBar{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+}
